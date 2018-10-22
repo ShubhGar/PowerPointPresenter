@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BC58677217DF1EE0023DABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58676217DF1EE0023DABA /* AppDelegate.swift */; };
+		5BC58679217DF1EE0023DABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58678217DF1EE0023DABA /* ViewController.swift */; };
+		5BC5867C217DF1EE0023DABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5867A217DF1EE0023DABA /* Main.storyboard */; };
+		5BC5867E217DF1F00023DABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5867D217DF1F00023DABA /* Assets.xcassets */; };
+		5BC58681217DF1F00023DABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5867F217DF1F00023DABA /* LaunchScreen.storyboard */; };
+		5BC5868C217DF1F00023DABA /* PowerPointPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5868B217DF1F00023DABA /* PowerPointPresenterTests.swift */; };
+		5BC58697217DF1F00023DABA /* PowerPointPresenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58696217DF1F00023DABA /* PowerPointPresenterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BC58688217DF1F00023DABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC5866B217DF1EE0023DABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC58672217DF1EE0023DABA;
+			remoteInfo = PowerPointPresenter;
+		};
+		5BC58693217DF1F00023DABA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BC5866B217DF1EE0023DABA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BC58672217DF1EE0023DABA;
+			remoteInfo = PowerPointPresenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BC58673217DF1EE0023DABA /* PowerPointPresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerPointPresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC58676217DF1EE0023DABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BC58678217DF1EE0023DABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BC5867B217DF1EE0023DABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BC5867D217DF1F00023DABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BC58680217DF1F00023DABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BC58682217DF1F00023DABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC58687217DF1F00023DABA /* PowerPointPresenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerPointPresenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC5868B217DF1F00023DABA /* PowerPointPresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerPointPresenterTests.swift; sourceTree = "<group>"; };
+		5BC5868D217DF1F00023DABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC58692217DF1F00023DABA /* PowerPointPresenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerPointPresenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BC58696217DF1F00023DABA /* PowerPointPresenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerPointPresenterUITests.swift; sourceTree = "<group>"; };
+		5BC58698217DF1F00023DABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BC58670217DF1EE0023DABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC58684217DF1F00023DABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC5868F217DF1F00023DABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BC5866A217DF1EE0023DABA = {
+			isa = PBXGroup;
+			children = (
+				5BC58675217DF1EE0023DABA /* PowerPointPresenter */,
+				5BC5868A217DF1F00023DABA /* PowerPointPresenterTests */,
+				5BC58695217DF1F00023DABA /* PowerPointPresenterUITests */,
+				5BC58674217DF1EE0023DABA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BC58674217DF1EE0023DABA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BC58673217DF1EE0023DABA /* PowerPointPresenter.app */,
+				5BC58687217DF1F00023DABA /* PowerPointPresenterTests.xctest */,
+				5BC58692217DF1F00023DABA /* PowerPointPresenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BC58675217DF1EE0023DABA /* PowerPointPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				5BC58676217DF1EE0023DABA /* AppDelegate.swift */,
+				5BC58678217DF1EE0023DABA /* ViewController.swift */,
+				5BC5867A217DF1EE0023DABA /* Main.storyboard */,
+				5BC5867D217DF1F00023DABA /* Assets.xcassets */,
+				5BC5867F217DF1F00023DABA /* LaunchScreen.storyboard */,
+				5BC58682217DF1F00023DABA /* Info.plist */,
+			);
+			path = PowerPointPresenter;
+			sourceTree = "<group>";
+		};
+		5BC5868A217DF1F00023DABA /* PowerPointPresenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC5868B217DF1F00023DABA /* PowerPointPresenterTests.swift */,
+				5BC5868D217DF1F00023DABA /* Info.plist */,
+			);
+			path = PowerPointPresenterTests;
+			sourceTree = "<group>";
+		};
+		5BC58695217DF1F00023DABA /* PowerPointPresenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BC58696217DF1F00023DABA /* PowerPointPresenterUITests.swift */,
+				5BC58698217DF1F00023DABA /* Info.plist */,
+			);
+			path = PowerPointPresenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BC58672217DF1EE0023DABA /* PowerPointPresenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC5869B217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenter" */;
+			buildPhases = (
+				5BC5866F217DF1EE0023DABA /* Sources */,
+				5BC58670217DF1EE0023DABA /* Frameworks */,
+				5BC58671217DF1EE0023DABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PowerPointPresenter;
+			productName = PowerPointPresenter;
+			productReference = 5BC58673217DF1EE0023DABA /* PowerPointPresenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BC58686217DF1F00023DABA /* PowerPointPresenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC5869E217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenterTests" */;
+			buildPhases = (
+				5BC58683217DF1F00023DABA /* Sources */,
+				5BC58684217DF1F00023DABA /* Frameworks */,
+				5BC58685217DF1F00023DABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC58689217DF1F00023DABA /* PBXTargetDependency */,
+			);
+			name = PowerPointPresenterTests;
+			productName = PowerPointPresenterTests;
+			productReference = 5BC58687217DF1F00023DABA /* PowerPointPresenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BC58691217DF1F00023DABA /* PowerPointPresenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BC586A1217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenterUITests" */;
+			buildPhases = (
+				5BC5868E217DF1F00023DABA /* Sources */,
+				5BC5868F217DF1F00023DABA /* Frameworks */,
+				5BC58690217DF1F00023DABA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BC58694217DF1F00023DABA /* PBXTargetDependency */,
+			);
+			name = PowerPointPresenterUITests;
+			productName = PowerPointPresenterUITests;
+			productReference = 5BC58692217DF1F00023DABA /* PowerPointPresenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC5866B217DF1EE0023DABA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Shubham Garg";
+				TargetAttributes = {
+					5BC58672217DF1EE0023DABA = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					5BC58686217DF1F00023DABA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5BC58672217DF1EE0023DABA;
+					};
+					5BC58691217DF1F00023DABA = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 5BC58672217DF1EE0023DABA;
+					};
+				};
+			};
+			buildConfigurationList = 5BC5866E217DF1EE0023DABA /* Build configuration list for PBXProject "PowerPointPresenter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BC5866A217DF1EE0023DABA;
+			productRefGroup = 5BC58674217DF1EE0023DABA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BC58672217DF1EE0023DABA /* PowerPointPresenter */,
+				5BC58686217DF1F00023DABA /* PowerPointPresenterTests */,
+				5BC58691217DF1F00023DABA /* PowerPointPresenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BC58671217DF1EE0023DABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC58681217DF1F00023DABA /* LaunchScreen.storyboard in Resources */,
+				5BC5867E217DF1F00023DABA /* Assets.xcassets in Resources */,
+				5BC5867C217DF1EE0023DABA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC58685217DF1F00023DABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC58690217DF1F00023DABA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BC5866F217DF1EE0023DABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC58679217DF1EE0023DABA /* ViewController.swift in Sources */,
+				5BC58677217DF1EE0023DABA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC58683217DF1F00023DABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC5868C217DF1F00023DABA /* PowerPointPresenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BC5868E217DF1F00023DABA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BC58697217DF1F00023DABA /* PowerPointPresenterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BC58689217DF1F00023DABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC58672217DF1EE0023DABA /* PowerPointPresenter */;
+			targetProxy = 5BC58688217DF1F00023DABA /* PBXContainerItemProxy */;
+		};
+		5BC58694217DF1F00023DABA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BC58672217DF1EE0023DABA /* PowerPointPresenter */;
+			targetProxy = 5BC58693217DF1F00023DABA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BC5867A217DF1EE0023DABA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC5867B217DF1EE0023DABA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BC5867F217DF1F00023DABA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BC58680217DF1F00023DABA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BC58699217DF1F00023DABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5BC5869A217DF1F00023DABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BC5869C217DF1F00023DABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PowerPointPresenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BC5869D217DF1F00023DABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PowerPointPresenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BC5869F217DF1F00023DABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PowerPointPresenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerPointPresenter.app/PowerPointPresenter";
+			};
+			name = Debug;
+		};
+		5BC586A0217DF1F00023DABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PowerPointPresenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PowerPointPresenter.app/PowerPointPresenter";
+			};
+			name = Release;
+		};
+		5BC586A2217DF1F00023DABA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PowerPointPresenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PowerPointPresenter;
+			};
+			name = Debug;
+		};
+		5BC586A3217DF1F00023DABA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PowerPointPresenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PowerPointPresenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BC5866E217DF1EE0023DABA /* Build configuration list for PBXProject "PowerPointPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC58699217DF1F00023DABA /* Debug */,
+				5BC5869A217DF1F00023DABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC5869B217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC5869C217DF1F00023DABA /* Debug */,
+				5BC5869D217DF1F00023DABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC5869E217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC5869F217DF1F00023DABA /* Debug */,
+				5BC586A0217DF1F00023DABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BC586A1217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BC586A2217DF1F00023DABA /* Debug */,
+				5BC586A3217DF1F00023DABA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC5866B217DF1EE0023DABA /* Project object */;
+}
