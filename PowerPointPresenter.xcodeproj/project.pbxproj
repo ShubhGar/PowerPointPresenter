@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A271A91BB17EF0B6EBBF8D4 /* Pods_PowerPointPresenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E262CF37C21344BF160B55A7 /* Pods_PowerPointPresenter.framework */; };
+		5B25801421830257002988C3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B25801321830257002988C3 /* GoogleService-Info.plist */; };
+		5B25801521832E66002988C3 /* Presentations-Tips.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 5B2580122182F197002988C3 /* Presentations-Tips.ppt */; };
+		5B2580172183392A002988C3 /* DownloadPPTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B2580162183392A002988C3 /* DownloadPPTViewController.swift */; };
+		5B7343C0217DFD38008D0443 /* Presentation-Suggestions.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 5BC586A4217DF8CA0023DABA /* Presentation-Suggestions.ppt */; };
+		5B94C2102181BBFA00F39676 /* Worst-Presentation.ppt in Resources */ = {isa = PBXBuildFile; fileRef = 5B94C20F2181BBFA00F39676 /* Worst-Presentation.ppt */; };
+		5BB359272182D39700DDB40E /* PowerpointListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB359262182D39700DDB40E /* PowerpointListTableViewController.swift */; };
+		5BB3592C2182D74A00DDB40E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3592B2182D74900DDB40E /* LoginViewController.swift */; };
+		5BB3592E2182D76B00DDB40E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3592D2182D76B00DDB40E /* User.swift */; };
+		5BB359302182D79000DDB40E /* Powerpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB3592F2182D79000DDB40E /* Powerpoint.swift */; };
 		5BC58677217DF1EE0023DABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58676217DF1EE0023DABA /* AppDelegate.swift */; };
-		5BC58679217DF1EE0023DABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58678217DF1EE0023DABA /* ViewController.swift */; };
+		5BC58679217DF1EE0023DABA /* PresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58678217DF1EE0023DABA /* PresentationViewController.swift */; };
 		5BC5867C217DF1EE0023DABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5867A217DF1EE0023DABA /* Main.storyboard */; };
 		5BC5867E217DF1F00023DABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5867D217DF1F00023DABA /* Assets.xcassets */; };
 		5BC58681217DF1F00023DABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BC5867F217DF1F00023DABA /* LaunchScreen.storyboard */; };
 		5BC5868C217DF1F00023DABA /* PowerPointPresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC5868B217DF1F00023DABA /* PowerPointPresenterTests.swift */; };
 		5BC58697217DF1F00023DABA /* PowerPointPresenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC58696217DF1F00023DABA /* PowerPointPresenterUITests.swift */; };
+		C01C6497FCC63EF44C4FE5DB /* Pods_PowerPointPresenterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F50EC273223816F43DDD48B /* Pods_PowerPointPresenterTests.framework */; };
+		F8ACA7DA83AA934B8462E017 /* Pods_PowerPointPresenterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 397FB5B121C7812344C042FC /* Pods_PowerPointPresenterUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B4AFE7E51881FD4AB03AB3A /* Pods-PowerPointPresenterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerPointPresenterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PowerPointPresenterUITests/Pods-PowerPointPresenterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		22E30ADFB11CBF4572583DB6 /* Pods-PowerPointPresenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerPointPresenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PowerPointPresenter/Pods-PowerPointPresenter.debug.xcconfig"; sourceTree = "<group>"; };
+		397FB5B121C7812344C042FC /* Pods_PowerPointPresenterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerPointPresenterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F50EC273223816F43DDD48B /* Pods_PowerPointPresenterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerPointPresenterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B2580122182F197002988C3 /* Presentations-Tips.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Presentations-Tips.ppt"; sourceTree = "<group>"; };
+		5B25801321830257002988C3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5B2580162183392A002988C3 /* DownloadPPTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadPPTViewController.swift; sourceTree = "<group>"; };
+		5B94C20F2181BBFA00F39676 /* Worst-Presentation.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Worst-Presentation.ppt"; sourceTree = "<group>"; };
+		5BB359262182D39700DDB40E /* PowerpointListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerpointListTableViewController.swift; sourceTree = "<group>"; };
+		5BB3592B2182D74900DDB40E /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5BB3592D2182D76B00DDB40E /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		5BB3592F2182D79000DDB40E /* Powerpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Powerpoint.swift; sourceTree = "<group>"; };
 		5BC58673217DF1EE0023DABA /* PowerPointPresenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerPointPresenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC58676217DF1EE0023DABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BC58678217DF1EE0023DABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BC58678217DF1EE0023DABA /* PresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationViewController.swift; sourceTree = "<group>"; };
 		5BC5867B217DF1EE0023DABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BC5867D217DF1F00023DABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BC58680217DF1F00023DABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +71,12 @@
 		5BC58692217DF1F00023DABA /* PowerPointPresenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerPointPresenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BC58696217DF1F00023DABA /* PowerPointPresenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerPointPresenterUITests.swift; sourceTree = "<group>"; };
 		5BC58698217DF1F00023DABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC586A4217DF8CA0023DABA /* Presentation-Suggestions.ppt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Presentation-Suggestions.ppt"; sourceTree = "<group>"; };
+		635318356768571E37B974CD /* Pods-PowerPointPresenterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerPointPresenterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PowerPointPresenterTests/Pods-PowerPointPresenterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A48CDA416E60B765CA396B89 /* Pods-PowerPointPresenterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerPointPresenterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PowerPointPresenterUITests/Pods-PowerPointPresenterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CFC36A8432A78DB4A2A7E65E /* Pods-PowerPointPresenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerPointPresenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-PowerPointPresenter/Pods-PowerPointPresenter.release.xcconfig"; sourceTree = "<group>"; };
+		E262CF37C21344BF160B55A7 /* Pods_PowerPointPresenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerPointPresenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE3572D617E6D49F0D01A5FC /* Pods-PowerPointPresenterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerPointPresenterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PowerPointPresenterTests/Pods-PowerPointPresenterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A271A91BB17EF0B6EBBF8D4 /* Pods_PowerPointPresenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01C6497FCC63EF44C4FE5DB /* Pods_PowerPointPresenterTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,66 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8ACA7DA83AA934B8462E017 /* Pods_PowerPointPresenterUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C9353AF5DA9EB4D42F22B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E262CF37C21344BF160B55A7 /* Pods_PowerPointPresenter.framework */,
+				4F50EC273223816F43DDD48B /* Pods_PowerPointPresenterTests.framework */,
+				397FB5B121C7812344C042FC /* Pods_PowerPointPresenterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		43F3B83E02FCB586E48BA546 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22E30ADFB11CBF4572583DB6 /* Pods-PowerPointPresenter.debug.xcconfig */,
+				CFC36A8432A78DB4A2A7E65E /* Pods-PowerPointPresenter.release.xcconfig */,
+				635318356768571E37B974CD /* Pods-PowerPointPresenterTests.debug.xcconfig */,
+				EE3572D617E6D49F0D01A5FC /* Pods-PowerPointPresenterTests.release.xcconfig */,
+				0B4AFE7E51881FD4AB03AB3A /* Pods-PowerPointPresenterUITests.debug.xcconfig */,
+				A48CDA416E60B765CA396B89 /* Pods-PowerPointPresenterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5BB359242182D08000DDB40E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B94C20F2181BBFA00F39676 /* Worst-Presentation.ppt */,
+				5BC586A4217DF8CA0023DABA /* Presentation-Suggestions.ppt */,
+				5B2580122182F197002988C3 /* Presentations-Tips.ppt */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5BB359252182D0A200DDB40E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3592B2182D74900DDB40E /* LoginViewController.swift */,
+				5BC58678217DF1EE0023DABA /* PresentationViewController.swift */,
+				5BB359262182D39700DDB40E /* PowerpointListTableViewController.swift */,
+				5B2580162183392A002988C3 /* DownloadPPTViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		5BB359282182D43000DDB40E /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				5BB3592D2182D76B00DDB40E /* User.swift */,
+				5BB3592F2182D79000DDB40E /* Powerpoint.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
 		5BC5866A217DF1EE0023DABA = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +167,8 @@
 				5BC5868A217DF1F00023DABA /* PowerPointPresenterTests */,
 				5BC58695217DF1F00023DABA /* PowerPointPresenterUITests */,
 				5BC58674217DF1EE0023DABA /* Products */,
+				43F3B83E02FCB586E48BA546 /* Pods */,
+				27C9353AF5DA9EB4D42F22B3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +185,11 @@
 		5BC58675217DF1EE0023DABA /* PowerPointPresenter */ = {
 			isa = PBXGroup;
 			children = (
+				5BB359282182D43000DDB40E /* Modals */,
+				5BB359252182D0A200DDB40E /* ViewControllers */,
+				5BB359242182D08000DDB40E /* Resources */,
 				5BC58676217DF1EE0023DABA /* AppDelegate.swift */,
-				5BC58678217DF1EE0023DABA /* ViewController.swift */,
+				5B25801321830257002988C3 /* GoogleService-Info.plist */,
 				5BC5867A217DF1EE0023DABA /* Main.storyboard */,
 				5BC5867D217DF1F00023DABA /* Assets.xcassets */,
 				5BC5867F217DF1F00023DABA /* LaunchScreen.storyboard */,
@@ -132,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC5869B217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenter" */;
 			buildPhases = (
+				F94300549AD25ECD4313AFAC /* [CP] Check Pods Manifest.lock */,
 				5BC5866F217DF1EE0023DABA /* Sources */,
 				5BC58670217DF1EE0023DABA /* Frameworks */,
 				5BC58671217DF1EE0023DABA /* Resources */,
+				7F197FDEA32CBA2DBD4674D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +242,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC5869E217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenterTests" */;
 			buildPhases = (
+				CB46F0D7CC4EABABADD97129 /* [CP] Check Pods Manifest.lock */,
 				5BC58683217DF1F00023DABA /* Sources */,
 				5BC58684217DF1F00023DABA /* Frameworks */,
 				5BC58685217DF1F00023DABA /* Resources */,
@@ -167,6 +261,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BC586A1217DF1F00023DABA /* Build configuration list for PBXNativeTarget "PowerPointPresenterUITests" */;
 			buildPhases = (
+				5454F2CB3043A8A015B46652 /* [CP] Check Pods Manifest.lock */,
 				5BC5868E217DF1F00023DABA /* Sources */,
 				5BC5868F217DF1F00023DABA /* Frameworks */,
 				5BC58690217DF1F00023DABA /* Resources */,
@@ -229,9 +324,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B25801521832E66002988C3 /* Presentations-Tips.ppt in Resources */,
+				5B7343C0217DFD38008D0443 /* Presentation-Suggestions.ppt in Resources */,
 				5BC58681217DF1F00023DABA /* LaunchScreen.storyboard in Resources */,
 				5BC5867E217DF1F00023DABA /* Assets.xcassets in Resources */,
 				5BC5867C217DF1EE0023DABA /* Main.storyboard in Resources */,
+				5B94C2102181BBFA00F39676 /* Worst-Presentation.ppt in Resources */,
+				5B25801421830257002988C3 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,12 +350,98 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5454F2CB3043A8A015B46652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerPointPresenterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F197FDEA32CBA2DBD4674D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PowerPointPresenter/Pods-PowerPointPresenter-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PowerPointPresenter/Pods-PowerPointPresenter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB46F0D7CC4EABABADD97129 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerPointPresenterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F94300549AD25ECD4313AFAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerPointPresenter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BC5866F217DF1EE0023DABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BC58679217DF1EE0023DABA /* ViewController.swift in Sources */,
+				5B2580172183392A002988C3 /* DownloadPPTViewController.swift in Sources */,
+				5BB3592C2182D74A00DDB40E /* LoginViewController.swift in Sources */,
+				5BB359272182D39700DDB40E /* PowerpointListTableViewController.swift in Sources */,
+				5BC58679217DF1EE0023DABA /* PresentationViewController.swift in Sources */,
+				5BB3592E2182D76B00DDB40E /* User.swift in Sources */,
+				5BB359302182D79000DDB40E /* Powerpoint.swift in Sources */,
 				5BC58677217DF1EE0023DABA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -430,6 +615,7 @@
 		};
 		5BC5869C217DF1F00023DABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22E30ADFB11CBF4572583DB6 /* Pods-PowerPointPresenter.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -438,7 +624,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.PowerPointPresenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -447,6 +633,7 @@
 		};
 		5BC5869D217DF1F00023DABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC36A8432A78DB4A2A7E65E /* Pods-PowerPointPresenter.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,7 +642,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mobiliya.PowerPointPresenter;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shubham.PowerPointPresenter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,6 +651,7 @@
 		};
 		5BC5869F217DF1F00023DABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 635318356768571E37B974CD /* Pods-PowerPointPresenterTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +672,7 @@
 		};
 		5BC586A0217DF1F00023DABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE3572D617E6D49F0D01A5FC /* Pods-PowerPointPresenterTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +693,7 @@
 		};
 		5BC586A2217DF1F00023DABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B4AFE7E51881FD4AB03AB3A /* Pods-PowerPointPresenterUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +713,7 @@
 		};
 		5BC586A3217DF1F00023DABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48CDA416E60B765CA396B89 /* Pods-PowerPointPresenterUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

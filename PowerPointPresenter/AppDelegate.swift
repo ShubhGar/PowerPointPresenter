@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +15,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
+        Auth.auth().addStateDidChangeListener() { auth, user in
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            if user != nil {
+                let vc = storyboard.instantiateViewController(withIdentifier: "PowerpointListTableViewController")
+                let navVC = UINavigationController(rootViewController: vc)
+                self.window?.rootViewController = navVC
+            }
+            else{
+                self.window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            }
+        }
         return true
     }
 
